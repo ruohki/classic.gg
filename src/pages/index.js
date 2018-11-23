@@ -1,13 +1,13 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import LogoImage from '../components/image';
+import React from 'react';
+ 
 import Logo from '../images/classic-logo.svg';
-
-import Layout from '../components/layout'
+import Discord from '../components/discord';
+import Layout from '../components/layout';
 
 const IndexPage = () => (
   <Layout>
     <Logo />
+    <Discord />
   </Layout>
 )
 

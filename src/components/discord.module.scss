@@ -1,0 +1,28 @@
+$primary-color: #ffffff;
+$discord-color: #7289DA;
+
+.container {
+  position: absolute;
+  right: 32px;
+  bottom: 32px;
+  font-size: 32px;
+  opacity: .5;
+  transition: all 0.35s ease;
+  
+  a {
+    text-decoration: none;
+    color: $primary-color;
+  }
+
+  &:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  &:active {
+    transform: scale(0.9);
+    
+    a {
+      color: $discord-color;
+    }
+  }
+}
