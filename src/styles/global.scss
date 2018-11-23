@@ -1,0 +1,14 @@
+$primary-bg-color: #141414;
+$primary-color: #ffffff;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Exo 2";
+  color: $primary-color;
+  background-color: $primary-bg-color;
+}
